@@ -1,0 +1,7 @@
+BUN
+
+Bun.serve for server
+watchmode - like nodemon `bun --watch index.ts`
+HOT Reload: to change state without extra Reload
+            - `bun --hot index.ts`
+ENV: - unlike node we dont have to install a package called .env
