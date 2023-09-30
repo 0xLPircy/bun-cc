@@ -21,3 +21,12 @@ BUN X:
     - similar to npx
     - just do ` bunx packagename `
     - eg: ` npx create-react-app `
+
+NODE CORE MODULES:
+     - all core node stuff works such as path, path.xyz etc
+     - can use both import and require syntax
+
+FILE I/O API:
+     - can use fs etc but has better
+     - has top level async so dont need to include it with await functions (?) 
+     - can use functions (as in file.ts)
