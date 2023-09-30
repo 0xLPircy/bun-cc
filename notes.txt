@@ -5,3 +5,19 @@ watchmode - like nodemon `bun --watch index.ts`
 HOT Reload: to change state without extra Reload
             - `bun --hot index.ts`
 ENV: - unlike node we dont have to install a package called .env
+     - can do Bun.env.VARNAME instead of process.env.VARNAME
+
+SCRIPTS: 
+     - we can add start and watch scripts
+
+ROUTES:
+     - we can read the routes, simple url.pathname stuff
+     - ` const url = new URL(req.url);
+        if (url.pathname === "/") return new Response("HomePage!");
+        if (url.pathname === "/blog") return new Response("Blog!");
+        return new Response("404!"); `
+
+BUN X: 
+    - similar to npx
+    - just do ` bunx packagename `
+    - eg: ` npx create-react-app `
